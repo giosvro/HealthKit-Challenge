@@ -7,61 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65619EEB2AB760B5009E90CA /* HealthKit_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65619EEA2AB760B5009E90CA /* HealthKit_ChallengeApp.swift */; };
-		65619EED2AB760B5009E90CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65619EEC2AB760B5009E90CA /* ContentView.swift */; };
-		65619EEF2AB760B5009E90CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65619EEE2AB760B5009E90CA /* Assets.xcassets */; };
-		65619EF22AB760B5009E90CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65619EF12AB760B5009E90CA /* Preview Assets.xcassets */; };
-		65619EFC2AB760B5009E90CA /* HealthKit_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65619EFB2AB760B5009E90CA /* HealthKit_ChallengeTests.swift */; };
-		65619F062AB760B5009E90CA /* HealthKit_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65619F052AB760B5009E90CA /* HealthKit_ChallengeUITests.swift */; };
-		65619F082AB760B5009E90CA /* HealthKit_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65619F072AB760B5009E90CA /* HealthKit_ChallengeUITestsLaunchTests.swift */; };
+		65B430722AB763DB00A4CEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430712AB763DB00A4CEA0 /* AppDelegate.swift */; };
+		65B430742AB763DB00A4CEA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430732AB763DB00A4CEA0 /* SceneDelegate.swift */; };
+		65B430762AB763DB00A4CEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430752AB763DB00A4CEA0 /* ViewController.swift */; };
+		65B430792AB763DB00A4CEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B430772AB763DB00A4CEA0 /* Main.storyboard */; };
+		65B4307B2AB763DC00A4CEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B4307A2AB763DC00A4CEA0 /* Assets.xcassets */; };
+		65B4307E2AB763DC00A4CEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B4307C2AB763DC00A4CEA0 /* LaunchScreen.storyboard */; };
+		65B430892AB763DC00A4CEA0 /* HealthKit_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430882AB763DC00A4CEA0 /* HealthKit_ChallengeTests.swift */; };
+		65B430932AB763DC00A4CEA0 /* HealthKit_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430922AB763DC00A4CEA0 /* HealthKit_ChallengeUITests.swift */; };
+		65B430952AB763DC00A4CEA0 /* HealthKit_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B430942AB763DC00A4CEA0 /* HealthKit_ChallengeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65619EF82AB760B5009E90CA /* PBXContainerItemProxy */ = {
+		65B430852AB763DC00A4CEA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65619EDF2AB760B4009E90CA /* Project object */;
+			containerPortal = 65B430662AB763DB00A4CEA0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65619EE62AB760B4009E90CA;
+			remoteGlobalIDString = 65B4306D2AB763DB00A4CEA0;
 			remoteInfo = "HealthKit-Challenge";
 		};
-		65619F022AB760B5009E90CA /* PBXContainerItemProxy */ = {
+		65B4308F2AB763DC00A4CEA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65619EDF2AB760B4009E90CA /* Project object */;
+			containerPortal = 65B430662AB763DB00A4CEA0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65619EE62AB760B4009E90CA;
+			remoteGlobalIDString = 65B4306D2AB763DB00A4CEA0;
 			remoteInfo = "HealthKit-Challenge";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65619EE72AB760B5009E90CA /* HealthKit-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthKit-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65619EEA2AB760B5009E90CA /* HealthKit_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeApp.swift; sourceTree = "<group>"; };
-		65619EEC2AB760B5009E90CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		65619EEE2AB760B5009E90CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65619EF12AB760B5009E90CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65619EF72AB760B5009E90CA /* HealthKit-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65619EFB2AB760B5009E90CA /* HealthKit_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeTests.swift; sourceTree = "<group>"; };
-		65619F012AB760B5009E90CA /* HealthKit-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65619F052AB760B5009E90CA /* HealthKit_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeUITests.swift; sourceTree = "<group>"; };
-		65619F072AB760B5009E90CA /* HealthKit_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B4306E2AB763DB00A4CEA0 /* HealthKit-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthKit-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B430712AB763DB00A4CEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B430732AB763DB00A4CEA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65B430752AB763DB00A4CEA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B430782AB763DB00A4CEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B4307A2AB763DC00A4CEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B4307D2AB763DC00A4CEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B4307F2AB763DC00A4CEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B430842AB763DC00A4CEA0 /* HealthKit-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B430882AB763DC00A4CEA0 /* HealthKit_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeTests.swift; sourceTree = "<group>"; };
+		65B4308E2AB763DC00A4CEA0 /* HealthKit-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B430922AB763DC00A4CEA0 /* HealthKit_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeUITests.swift; sourceTree = "<group>"; };
+		65B430942AB763DC00A4CEA0 /* HealthKit_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65619EE42AB760B4009E90CA /* Frameworks */ = {
+		65B4306B2AB763DB00A4CEA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EF42AB760B5009E90CA /* Frameworks */ = {
+		65B430812AB763DC00A4CEA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EFE2AB760B5009E90CA /* Frameworks */ = {
+		65B4308B2AB763DC00A4CEA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65619EDE2AB760B4009E90CA = {
+		65B430652AB763DB00A4CEA0 = {
 			isa = PBXGroup;
 			children = (
-				65619EE92AB760B5009E90CA /* HealthKit-Challenge */,
-				65619EFA2AB760B5009E90CA /* HealthKit-ChallengeTests */,
-				65619F042AB760B5009E90CA /* HealthKit-ChallengeUITests */,
-				65619EE82AB760B5009E90CA /* Products */,
+				65B430702AB763DB00A4CEA0 /* HealthKit-Challenge */,
+				65B430872AB763DC00A4CEA0 /* HealthKit-ChallengeTests */,
+				65B430912AB763DC00A4CEA0 /* HealthKit-ChallengeUITests */,
+				65B4306F2AB763DB00A4CEA0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65619EE82AB760B5009E90CA /* Products */ = {
+		65B4306F2AB763DB00A4CEA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65619EE72AB760B5009E90CA /* HealthKit-Challenge.app */,
-				65619EF72AB760B5009E90CA /* HealthKit-ChallengeTests.xctest */,
-				65619F012AB760B5009E90CA /* HealthKit-ChallengeUITests.xctest */,
+				65B4306E2AB763DB00A4CEA0 /* HealthKit-Challenge.app */,
+				65B430842AB763DC00A4CEA0 /* HealthKit-ChallengeTests.xctest */,
+				65B4308E2AB763DC00A4CEA0 /* HealthKit-ChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65619EE92AB760B5009E90CA /* HealthKit-Challenge */ = {
+		65B430702AB763DB00A4CEA0 /* HealthKit-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				65619EEA2AB760B5009E90CA /* HealthKit_ChallengeApp.swift */,
-				65619EEC2AB760B5009E90CA /* ContentView.swift */,
-				65619EEE2AB760B5009E90CA /* Assets.xcassets */,
-				65619EF02AB760B5009E90CA /* Preview Content */,
+				65B430712AB763DB00A4CEA0 /* AppDelegate.swift */,
+				65B430732AB763DB00A4CEA0 /* SceneDelegate.swift */,
+				65B430752AB763DB00A4CEA0 /* ViewController.swift */,
+				65B430772AB763DB00A4CEA0 /* Main.storyboard */,
+				65B4307A2AB763DC00A4CEA0 /* Assets.xcassets */,
+				65B4307C2AB763DC00A4CEA0 /* LaunchScreen.storyboard */,
+				65B4307F2AB763DC00A4CEA0 /* Info.plist */,
 			);
 			path = "HealthKit-Challenge";
 			sourceTree = "<group>";
 		};
-		65619EF02AB760B5009E90CA /* Preview Content */ = {
+		65B430872AB763DC00A4CEA0 /* HealthKit-ChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				65619EF12AB760B5009E90CA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		65619EFA2AB760B5009E90CA /* HealthKit-ChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				65619EFB2AB760B5009E90CA /* HealthKit_ChallengeTests.swift */,
+				65B430882AB763DC00A4CEA0 /* HealthKit_ChallengeTests.swift */,
 			);
 			path = "HealthKit-ChallengeTests";
 			sourceTree = "<group>";
 		};
-		65619F042AB760B5009E90CA /* HealthKit-ChallengeUITests */ = {
+		65B430912AB763DC00A4CEA0 /* HealthKit-ChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65619F052AB760B5009E90CA /* HealthKit_ChallengeUITests.swift */,
-				65619F072AB760B5009E90CA /* HealthKit_ChallengeUITestsLaunchTests.swift */,
+				65B430922AB763DC00A4CEA0 /* HealthKit_ChallengeUITests.swift */,
+				65B430942AB763DC00A4CEA0 /* HealthKit_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "HealthKit-ChallengeUITests";
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65619EE62AB760B4009E90CA /* HealthKit-Challenge */ = {
+		65B4306D2AB763DB00A4CEA0 /* HealthKit-Challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65619F0B2AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-Challenge" */;
+			buildConfigurationList = 65B430982AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-Challenge" */;
 			buildPhases = (
-				65619EE32AB760B4009E90CA /* Sources */,
-				65619EE42AB760B4009E90CA /* Frameworks */,
-				65619EE52AB760B4009E90CA /* Resources */,
+				65B4306A2AB763DB00A4CEA0 /* Sources */,
+				65B4306B2AB763DB00A4CEA0 /* Frameworks */,
+				65B4306C2AB763DB00A4CEA0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = "HealthKit-Challenge";
 			productName = "HealthKit-Challenge";
-			productReference = 65619EE72AB760B5009E90CA /* HealthKit-Challenge.app */;
+			productReference = 65B4306E2AB763DB00A4CEA0 /* HealthKit-Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65619EF62AB760B5009E90CA /* HealthKit-ChallengeTests */ = {
+		65B430832AB763DC00A4CEA0 /* HealthKit-ChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65619F0E2AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeTests" */;
+			buildConfigurationList = 65B4309B2AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeTests" */;
 			buildPhases = (
-				65619EF32AB760B5009E90CA /* Sources */,
-				65619EF42AB760B5009E90CA /* Frameworks */,
-				65619EF52AB760B5009E90CA /* Resources */,
+				65B430802AB763DC00A4CEA0 /* Sources */,
+				65B430812AB763DC00A4CEA0 /* Frameworks */,
+				65B430822AB763DC00A4CEA0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65619EF92AB760B5009E90CA /* PBXTargetDependency */,
+				65B430862AB763DC00A4CEA0 /* PBXTargetDependency */,
 			);
 			name = "HealthKit-ChallengeTests";
 			productName = "HealthKit-ChallengeTests";
-			productReference = 65619EF72AB760B5009E90CA /* HealthKit-ChallengeTests.xctest */;
+			productReference = 65B430842AB763DC00A4CEA0 /* HealthKit-ChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65619F002AB760B5009E90CA /* HealthKit-ChallengeUITests */ = {
+		65B4308D2AB763DC00A4CEA0 /* HealthKit-ChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65619F112AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeUITests" */;
+			buildConfigurationList = 65B4309E2AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeUITests" */;
 			buildPhases = (
-				65619EFD2AB760B5009E90CA /* Sources */,
-				65619EFE2AB760B5009E90CA /* Frameworks */,
-				65619EFF2AB760B5009E90CA /* Resources */,
+				65B4308A2AB763DC00A4CEA0 /* Sources */,
+				65B4308B2AB763DC00A4CEA0 /* Frameworks */,
+				65B4308C2AB763DC00A4CEA0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65619F032AB760B5009E90CA /* PBXTargetDependency */,
+				65B430902AB763DC00A4CEA0 /* PBXTargetDependency */,
 			);
 			name = "HealthKit-ChallengeUITests";
 			productName = "HealthKit-ChallengeUITests";
-			productReference = 65619F012AB760B5009E90CA /* HealthKit-ChallengeUITests.xctest */;
+			productReference = 65B4308E2AB763DC00A4CEA0 /* HealthKit-ChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65619EDF2AB760B4009E90CA /* Project object */ = {
+		65B430662AB763DB00A4CEA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					65619EE62AB760B4009E90CA = {
+					65B4306D2AB763DB00A4CEA0 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					65619EF62AB760B5009E90CA = {
+					65B430832AB763DC00A4CEA0 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 65619EE62AB760B4009E90CA;
+						TestTargetID = 65B4306D2AB763DB00A4CEA0;
 					};
-					65619F002AB760B5009E90CA = {
+					65B4308D2AB763DC00A4CEA0 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 65619EE62AB760B4009E90CA;
+						TestTargetID = 65B4306D2AB763DB00A4CEA0;
 					};
 				};
 			};
-			buildConfigurationList = 65619EE22AB760B4009E90CA /* Build configuration list for PBXProject "HealthKit-Challenge" */;
+			buildConfigurationList = 65B430692AB763DB00A4CEA0 /* Build configuration list for PBXProject "HealthKit-Challenge" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 65619EDE2AB760B4009E90CA;
-			productRefGroup = 65619EE82AB760B5009E90CA /* Products */;
+			mainGroup = 65B430652AB763DB00A4CEA0;
+			productRefGroup = 65B4306F2AB763DB00A4CEA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65619EE62AB760B4009E90CA /* HealthKit-Challenge */,
-				65619EF62AB760B5009E90CA /* HealthKit-ChallengeTests */,
-				65619F002AB760B5009E90CA /* HealthKit-ChallengeUITests */,
+				65B4306D2AB763DB00A4CEA0 /* HealthKit-Challenge */,
+				65B430832AB763DC00A4CEA0 /* HealthKit-ChallengeTests */,
+				65B4308D2AB763DC00A4CEA0 /* HealthKit-ChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65619EE52AB760B4009E90CA /* Resources */ = {
+		65B4306C2AB763DB00A4CEA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65619EF22AB760B5009E90CA /* Preview Assets.xcassets in Resources */,
-				65619EEF2AB760B5009E90CA /* Assets.xcassets in Resources */,
+				65B4307E2AB763DC00A4CEA0 /* LaunchScreen.storyboard in Resources */,
+				65B4307B2AB763DC00A4CEA0 /* Assets.xcassets in Resources */,
+				65B430792AB763DB00A4CEA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EF52AB760B5009E90CA /* Resources */ = {
+		65B430822AB763DC00A4CEA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EFF2AB760B5009E90CA /* Resources */ = {
+		65B4308C2AB763DC00A4CEA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65619EE32AB760B4009E90CA /* Sources */ = {
+		65B4306A2AB763DB00A4CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65619EED2AB760B5009E90CA /* ContentView.swift in Sources */,
-				65619EEB2AB760B5009E90CA /* HealthKit_ChallengeApp.swift in Sources */,
+				65B430762AB763DB00A4CEA0 /* ViewController.swift in Sources */,
+				65B430722AB763DB00A4CEA0 /* AppDelegate.swift in Sources */,
+				65B430742AB763DB00A4CEA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EF32AB760B5009E90CA /* Sources */ = {
+		65B430802AB763DC00A4CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65619EFC2AB760B5009E90CA /* HealthKit_ChallengeTests.swift in Sources */,
+				65B430892AB763DC00A4CEA0 /* HealthKit_ChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65619EFD2AB760B5009E90CA /* Sources */ = {
+		65B4308A2AB763DC00A4CEA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65619F062AB760B5009E90CA /* HealthKit_ChallengeUITests.swift in Sources */,
-				65619F082AB760B5009E90CA /* HealthKit_ChallengeUITestsLaunchTests.swift in Sources */,
+				65B430932AB763DC00A4CEA0 /* HealthKit_ChallengeUITests.swift in Sources */,
+				65B430952AB763DC00A4CEA0 /* HealthKit_ChallengeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65619EF92AB760B5009E90CA /* PBXTargetDependency */ = {
+		65B430862AB763DC00A4CEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65619EE62AB760B4009E90CA /* HealthKit-Challenge */;
-			targetProxy = 65619EF82AB760B5009E90CA /* PBXContainerItemProxy */;
+			target = 65B4306D2AB763DB00A4CEA0 /* HealthKit-Challenge */;
+			targetProxy = 65B430852AB763DC00A4CEA0 /* PBXContainerItemProxy */;
 		};
-		65619F032AB760B5009E90CA /* PBXTargetDependency */ = {
+		65B430902AB763DC00A4CEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65619EE62AB760B4009E90CA /* HealthKit-Challenge */;
-			targetProxy = 65619F022AB760B5009E90CA /* PBXContainerItemProxy */;
+			target = 65B4306D2AB763DB00A4CEA0 /* HealthKit-Challenge */;
+			targetProxy = 65B4308F2AB763DC00A4CEA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		65B430772AB763DB00A4CEA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B430782AB763DB00A4CEA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B4307C2AB763DC00A4CEA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B4307D2AB763DC00A4CEA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		65619F092AB760B5009E90CA /* Debug */ = {
+		65B430962AB763DC00A4CEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		65619F0A2AB760B5009E90CA /* Release */ = {
+		65B430972AB763DC00A4CEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,19 +430,18 @@
 			};
 			name = Release;
 		};
-		65619F0C2AB760B5009E90CA /* Debug */ = {
+		65B430992AB763DC00A4CEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HealthKit-Challenge/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "HealthKit-Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -437,19 +457,18 @@
 			};
 			name = Debug;
 		};
-		65619F0D2AB760B5009E90CA /* Release */ = {
+		65B4309A2AB763DC00A4CEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HealthKit-Challenge/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "HealthKit-Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,7 +484,7 @@
 			};
 			name = Release;
 		};
-		65619F0F2AB760B5009E90CA /* Debug */ = {
+		65B4309C2AB763DC00A4CEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -484,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		65619F102AB760B5009E90CA /* Release */ = {
+		65B4309D2AB763DC00A4CEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +522,7 @@
 			};
 			name = Release;
 		};
-		65619F122AB760B5009E90CA /* Debug */ = {
+		65B4309F2AB763DC00A4CEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -520,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		65619F132AB760B5009E90CA /* Release */ = {
+		65B430A02AB763DC00A4CEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -540,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65619EE22AB760B4009E90CA /* Build configuration list for PBXProject "HealthKit-Challenge" */ = {
+		65B430692AB763DB00A4CEA0 /* Build configuration list for PBXProject "HealthKit-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65619F092AB760B5009E90CA /* Debug */,
-				65619F0A2AB760B5009E90CA /* Release */,
+				65B430962AB763DC00A4CEA0 /* Debug */,
+				65B430972AB763DC00A4CEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65619F0B2AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-Challenge" */ = {
+		65B430982AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65619F0C2AB760B5009E90CA /* Debug */,
-				65619F0D2AB760B5009E90CA /* Release */,
+				65B430992AB763DC00A4CEA0 /* Debug */,
+				65B4309A2AB763DC00A4CEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65619F0E2AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeTests" */ = {
+		65B4309B2AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65619F0F2AB760B5009E90CA /* Debug */,
-				65619F102AB760B5009E90CA /* Release */,
+				65B4309C2AB763DC00A4CEA0 /* Debug */,
+				65B4309D2AB763DC00A4CEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65619F112AB760B5009E90CA /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeUITests" */ = {
+		65B4309E2AB763DC00A4CEA0 /* Build configuration list for PBXNativeTarget "HealthKit-ChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65619F122AB760B5009E90CA /* Debug */,
-				65619F132AB760B5009E90CA /* Release */,
+				65B4309F2AB763DC00A4CEA0 /* Debug */,
+				65B430A02AB763DC00A4CEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65619EDF2AB760B4009E90CA /* Project object */;
+	rootObject = 65B430662AB763DB00A4CEA0 /* Project object */;
 }
